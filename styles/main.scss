@@ -1,0 +1,196 @@
+// ============================ RESET =============================== 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+// ============================ VARIÁVEIS =============================== 
+// Primárias
+$Dark-Violet: hsl(256, 26%, 20%);
+$Grayish-Blue: hsl(216, 30%, 68%);
+
+//Neutras
+$Very-Dark-Violet: hsl(270, 9%, 17%);
+$Dark-Grayish-Violet: hsl(273, 4%, 51%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+
+// ============================ Base =============================== 
+body {
+  font-family: 'Karla';
+}
+
+.container {
+  padding: 0 1.8rem;
+}
+
+.white-title {
+  font-family: 'DM Serif Display';
+  color: $Very-Light-Gray;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.dark-title {
+  font-family: 'DM Serif Display';
+  color: $Very-Dark-Violet;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.button {
+  color: $Very-Light-Gray;
+  background-color: $Dark-Violet;
+  font-size: 1rem;
+  padding: .5rem 1.5rem;
+  border: 1px solid $Very-Light-Gray;
+  transition: .3s;
+
+  &:hover {
+    color:$Dark-Violet;
+    background-color: $Very-Light-Gray;
+    border: 1px solid $Dark-Violet
+  }
+}
+
+section {
+  margin-bottom: 8rem;
+}
+
+// ============================ Header =============================== 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 1.2rem 0;
+}
+
+// ============================ Home =============================== 
+#home {
+  background-color: $Dark-Violet;
+  .text {
+    text-align:center;
+    color: $Very-Light-Gray;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    p {
+      font-weight: lighter;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+// ============================ About =============================== 
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 5rem;
+  }
+  
+  .card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+
+    h3 {
+      margin: 2rem 0 1rem 0;
+      font-size: 1.5rem;
+      font-family: 'DM Serif Display';
+      font-weight: lighter;
+      color: $Very-Dark-Violet;
+    }
+
+    p {
+      text-align: center;
+      color: $Dark-Grayish-Violet;
+    }
+  }
+}
+
+
+// ============================ more =============================== 
+#more {
+  h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+  }
+  .container {
+    background-color: $Dark-Violet;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// ============================ footer =============================== 
+footer {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .socials {
+    margin: 2rem 0;
+
+    svg {
+    margin-right: .5rem;
+
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+    }
+  }
+
+  .links {
+    text-align: center;
+
+    p {
+      color: $Dark-Grayish-Violet;
+      margin-bottom: 3rem;
+      font-weight: bolder;
+    }
+
+    ul {
+      margin-bottom: 3rem;
+    }
+
+    li {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: $Dark-Violet;
+      font-weight: bolder;
+
+      &:hover {
+        border-bottom: 1px solid $Dark-Violet;
+      }
+    }
+  }
+}
