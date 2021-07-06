@@ -1,0 +1,74 @@
+// ============================ RESET =============================== 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+// ============================ VARIÁVEIS =============================== 
+// Primárias
+$Dark-Violet: hsl(256, 26%, 20%);
+$Grayish-Blue: hsl(216, 30%, 68%);
+
+//Neutras
+$Very-Dark-Violet: hsl(270, 9%, 17%);
+$Dark-Grayish-Violet: hsl(273, 4%, 51%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+
+// ============================ Base =============================== 
+body {
+  font-family: 'Karla';
+}
+
+.container {
+  padding: 0 1.8rem;
+}
+
+.white-title {
+  font-family: 'DM Serif Display';
+  color: $Very-Light-Gray;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.dark-title {
+  font-family: 'DM Serif Display';
+  color: $Very-Dark-Violet;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.button {
+  color: $Very-Light-Gray;
+  background-color: $Dark-Violet;
+  font-size: 1rem;
+  padding: .5rem 1.5rem;
+  border: 1px solid $Very-Light-Gray;
+  transition: .3s;
+
+  &:hover {
+    color:$Dark-Violet;
+    background-color: $Very-Light-Gray;
+    border: 1px solid $Dark-Violet
+  }
+}
+
+section {
+  margin-bottom: 8rem;
+}

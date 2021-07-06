@@ -1,0 +1,49 @@
+footer {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .socials {
+    margin: 2rem 0;
+
+    svg {
+    margin-right: .5rem;
+
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: $Very-Dark-Violet;
+    }
+    }
+  }
+
+  .links {
+    text-align: center;
+
+    p {
+      color: $Dark-Grayish-Violet;
+      margin-bottom: 3rem;
+      font-weight: bolder;
+    }
+
+    ul {
+      margin-bottom: 3rem;
+    }
+
+    li {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: $Dark-Violet;
+      font-weight: bolder;
+
+      &:hover {
+        border-bottom: 1px solid $Dark-Violet;
+      }
+    }
+  }
+}

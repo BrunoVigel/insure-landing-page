@@ -1,0 +1,14 @@
+#home {
+  background-color: $Dark-Violet;
+  .text {
+    text-align:center;
+    color: $Very-Light-Gray;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    p {
+      font-weight: lighter;
+      margin-bottom: 2.5rem;
+    }
+  }
+}

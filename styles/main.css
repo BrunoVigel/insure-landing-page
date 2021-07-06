@@ -183,6 +183,10 @@ footer .socials svg:nth-child(4) {
   margin-right: 0;
 }
 
+footer .socials svg:hover {
+  color: #2b272f;
+}
+
 footer .links {
   text-align: center;
 }
@@ -208,5 +212,68 @@ footer .links a {
 
 footer .links a:hover {
   border-bottom: 1px solid #2d2640;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    padding: 0 15rem;
+  }
+  #about {
+    -webkit-box-align: initial;
+        -ms-flex-align: initial;
+            align-items: initial;
+  }
+  #about .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #about .cards .card {
+    -webkit-box-align: initial;
+        -ms-flex-align: initial;
+            align-items: initial;
+    padding-right: 4rem;
+  }
+  #about .cards .card p {
+    text-align: initial;
+  }
+  #more h2 {
+    padding-right: 10rem;
+  }
+  #more .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 3.5rem 5rem;
+  }
+  footer .header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  footer .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: initial;
+  }
+  footer .links div {
+    margin-right: 20rem;
+  }
+  footer .links p {
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */

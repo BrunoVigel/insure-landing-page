@@ -1,0 +1,29 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 5rem;
+  }
+  
+  .card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+
+    h3 {
+      margin: 2rem 0 1rem 0;
+      font-size: 1.5rem;
+      font-family: 'DM Serif Display';
+      font-weight: lighter;
+      color: $Very-Dark-Violet;
+    }
+
+    p {
+      text-align: center;
+      color: $Dark-Grayish-Violet;
+    }
+  }
+}

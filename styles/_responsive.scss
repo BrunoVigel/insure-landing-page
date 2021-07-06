@@ -1,0 +1,61 @@
+@media (min-width: 1440px) {
+  // base
+  .container {
+    padding: 0 15rem;
+  }
+
+// about
+  #about {
+    align-items: initial;
+
+    .cards {
+      display: flex;
+
+      .card {
+        align-items: initial;
+        padding-right: 4rem;
+
+        p {
+          text-align: initial;
+        }
+      }
+    }
+  }
+
+
+  // more
+  #more {
+    h2 {
+      padding-right:10rem;
+    }
+
+    .container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 3.5rem 5rem;
+    }
+  }
+
+  // footer
+  footer {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 5rem;
+    }
+
+    .links {
+      display: flex;
+      text-align: initial;
+
+      div {
+        margin-right: 20rem;
+      }
+
+      p {
+        display: block;
+      }
+    }
+  }
+}
