@@ -1,5 +1,6 @@
 #more {
-  
+  position: relative;
+
   h2 {
     text-align: center;
     font-weight: lighter;
@@ -14,5 +15,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  svg {
+    position: absolute;
+    right: 1.8rem;
+    top: 0;
   }
 }
