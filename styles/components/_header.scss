@@ -18,7 +18,7 @@ nav {
 
       a {
         color: $Very-Light-Gray;
-        padding: 1rem 5rem;
+        padding: 1rem 3rem;
         transition: .3s;
 
         &:hover {
@@ -97,7 +97,7 @@ nav.show {
   ul.grid {
     gap: 3rem;
     position: fixed;
-    top: 10%;
+    top: 15%;
     left: 10%;
   }
 }
