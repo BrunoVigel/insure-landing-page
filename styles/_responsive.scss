@@ -49,6 +49,10 @@
 
     position: relative;
 
+    .divider1 {
+      display:block;
+    }
+
     .text {
       order: -1;
 
@@ -82,7 +86,7 @@
 
   picture{
     position: absolute;
-    top:25%;
+    top:22.6%;
     right:13.5%;
     img {
     max-width: 100%;
@@ -93,6 +97,11 @@
   // about
     #about {
       align-items: initial;
+
+
+      .divider2 {
+        width: 6rem;
+      }
 
       .cards {
         display: flex;
@@ -147,7 +156,10 @@
     .header {
       flex-direction: row;
       justify-content: space-between;
-      margin-bottom: 5rem;
+    }
+
+    .divider-footer {
+      margin: 3rem 0;
     }
 
     .links {

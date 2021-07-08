@@ -47,7 +47,23 @@ body {
   font-weight: lighter;
 }
 
+.divider1 {
+  height: 1px;
+  background-color: #fafafa;
+  width: 6rem;
+  margin-bottom: 3rem;
+  display: none;
+}
+
+.divider2 {
+  height: 1px;
+  background-color: #837d87;
+  width: 9rem;
+  margin-bottom: 3rem;
+}
+
 .button {
+  z-index: 2;
   color: #fafafa;
   background-color: #2d2640;
   font-size: 1rem;
@@ -88,6 +104,10 @@ nav .menu {
   font-size: 2rem;
 }
 
+nav .menu .bg-nav-menu {
+  display: none;
+}
+
 nav .menu ul {
   display: none;
   text-align: center;
@@ -117,6 +137,13 @@ nav.show .menu {
   display: grid;
   place-content: center;
   z-index: 2;
+}
+
+nav.show .bg-nav-menu {
+  display: block;
+  position: absolute;
+  top: 58%;
+  right: 0;
 }
 
 .toggle {
@@ -280,6 +307,15 @@ footer .header {
   position: relative;
 }
 
+footer .header svg,
+footer .header a {
+  z-index: 2;
+}
+
+footer .header .logo {
+  margin: 1.5rem 0;
+}
+
 footer .header .bg-header {
   position: absolute;
   top: 0;
@@ -287,8 +323,14 @@ footer .header .bg-header {
   width: 100%;
 }
 
+footer .divider-footer {
+  height: 1px;
+  background-color: #837d87;
+  width: 100%;
+  margin: 4rem 0;
+}
+
 footer .socials {
-  margin-top: 2rem;
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
@@ -365,6 +407,9 @@ footer .links a:hover {
     margin-bottom: 30rem;
     position: relative;
   }
+  #home .divider1 {
+    display: block;
+  }
   #home .text {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -390,7 +435,7 @@ footer .links a:hover {
   }
   #home picture {
     position: absolute;
-    top: 25%;
+    top: 22.6%;
     right: 13.5%;
   }
   #home picture img {
@@ -400,6 +445,9 @@ footer .links a:hover {
     -webkit-box-align: initial;
         -ms-flex-align: initial;
             align-items: initial;
+  }
+  #about .divider2 {
+    width: 6rem;
   }
   #about .cards {
     display: -webkit-box;
@@ -456,7 +504,9 @@ footer .links a:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 5rem;
+  }
+  footer .divider-footer {
+    margin: 3rem 0;
   }
   footer .links {
     display: -webkit-box;

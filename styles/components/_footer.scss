@@ -5,6 +5,16 @@ footer {
     flex-direction: column;
     align-items: center;
     position: relative;
+    
+
+    svg,
+    a {
+      z-index: 2;
+    }
+
+    .logo {
+      margin: 1.5rem 0;
+    }
 
     .bg-header {
       position:absolute;
@@ -13,8 +23,15 @@ footer {
       width: 100%;
     }
   }
+
+  .divider-footer {
+    height: 1px;
+    background-color: $Dark-Grayish-Violet;
+    width: 100%;
+    margin: 4rem 0;
+  }
+
   .socials {
-    margin-top: 2rem;
     display: grid;
     grid-auto-flow: column;
     gap: 1rem;

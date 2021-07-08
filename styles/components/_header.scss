@@ -12,6 +12,10 @@ nav {
     top: -20rem;
     font-size: 2rem;
 
+    .bg-nav-menu {
+      display: none;
+    }
+
     ul {
       display:none;
       text-align: center;
@@ -48,6 +52,12 @@ nav.show {
     display: grid;
     place-content: center;
     z-index: 2;
+  }
+  .bg-nav-menu {
+    display: block;
+    position: absolute;
+    top: 58%;
+    right: 0;
   }
 }
 
