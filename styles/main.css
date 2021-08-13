@@ -157,8 +157,8 @@ nav .icon-close {
   position: absolute;
   top: -1rem;
   right: 1.8rem;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 nav.show .icon-close {
