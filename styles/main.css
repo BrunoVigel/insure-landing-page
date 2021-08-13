@@ -142,7 +142,7 @@ nav.show .menu {
 nav.show .bg-nav-menu {
   display: block;
   position: absolute;
-  top: 58%;
+  bottom: 64px;
   right: 0;
 }
 
@@ -179,9 +179,6 @@ nav.show .menu ul {
 
 nav.show ul.grid {
   gap: 3rem;
-  position: fixed;
-  top: 15%;
-  left: 10%;
 }
 
 #home {
@@ -364,7 +361,7 @@ footer .links a:hover {
   border-bottom: 1px solid #2d2640;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1610px) {
   .container {
     padding: 0 15rem;
   }

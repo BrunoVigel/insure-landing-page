@@ -56,7 +56,7 @@ nav.show {
   .bg-nav-menu {
     display: block;
     position: absolute;
-    top: 58%;
+    bottom: 64px;
     right: 0;
   }
 }
@@ -106,9 +106,6 @@ nav.show {
 nav.show {
   ul.grid {
     gap: 3rem;
-    position: fixed;
-    top: 15%;
-    left: 10%;
   }
 }
 
