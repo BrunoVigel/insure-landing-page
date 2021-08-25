@@ -1,6 +1,13 @@
 #home {
   background-color: $Dark-Violet;
 
+  picture {
+    max-width: 100%;
+    img {
+      max-width: 100%;
+    }
+  }
+
   .text {
     text-align:center;
     color: $Very-Light-Gray;
