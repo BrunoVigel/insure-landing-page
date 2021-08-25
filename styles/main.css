@@ -361,7 +361,7 @@ footer .links a:hover {
   border-bottom: 1px solid #2d2640;
 }
 
-@media (min-width: 1610px) {
+@media (min-width: 1440px) {
   .container {
     padding: 0 15rem;
   }
